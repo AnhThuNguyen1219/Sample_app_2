@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'staticpages/Foo'
-
   get 'static_pages/home'
+
+  get 'staticpages/Foo'
 
   get 'static_pages/help'
 
